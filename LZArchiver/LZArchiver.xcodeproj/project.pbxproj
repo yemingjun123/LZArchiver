@@ -10,12 +10,12 @@
 		9F4395931F60FA5D00F57C82 /* LZArchiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4395891F60FA5D00F57C82 /* LZArchiver.framework */; };
 		9F4395981F60FA5D00F57C82 /* LZArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4395971F60FA5D00F57C82 /* LZArchiverTests.m */; };
 		9F43959A1F60FA5D00F57C82 /* LZArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F43958C1F60FA5D00F57C82 /* LZArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F4395A61F60FABA00F57C82 /* NSObject+LZArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4395A41F60FABA00F57C82 /* NSObject+LZArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F4395A71F60FABA00F57C82 /* NSObject+LZArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4395A51F60FABA00F57C82 /* NSObject+LZArchiver.m */; };
-		9F4395F21F61689300F57C82 /* NSObject+LZSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4395F01F61689300F57C82 /* NSObject+LZSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F4395F31F61689300F57C82 /* NSObject+LZSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4395F11F61689300F57C82 /* NSObject+LZSupport.m */; };
-		9F4395F61F6168EB00F57C82 /* LZArchiverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4395F41F6168EB00F57C82 /* LZArchiverManager.h */; };
-		9F4395F71F6168EB00F57C82 /* LZArchiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4395F51F6168EB00F57C82 /* LZArchiverManager.m */; };
+		9FF8F4EA1F61AEDC004E1762 /* LZArchiverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF8F4E41F61AEDC004E1762 /* LZArchiverManager.h */; };
+		9FF8F4EB1F61AEDC004E1762 /* LZArchiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8F4E51F61AEDC004E1762 /* LZArchiverManager.m */; };
+		9FF8F4EC1F61AEDC004E1762 /* NSObject+LZArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF8F4E61F61AEDC004E1762 /* NSObject+LZArchiver.h */; };
+		9FF8F4ED1F61AEDC004E1762 /* NSObject+LZArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8F4E71F61AEDC004E1762 /* NSObject+LZArchiver.m */; };
+		9FF8F4EE1F61AEDC004E1762 /* NSObject+LZSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF8F4E81F61AEDC004E1762 /* NSObject+LZSupport.h */; };
+		9FF8F4EF1F61AEDC004E1762 /* NSObject+LZSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8F4E91F61AEDC004E1762 /* NSObject+LZSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +35,12 @@
 		9F4395921F60FA5D00F57C82 /* LZArchiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZArchiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4395971F60FA5D00F57C82 /* LZArchiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZArchiverTests.m; sourceTree = "<group>"; };
 		9F4395991F60FA5D00F57C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F4395A41F60FABA00F57C82 /* NSObject+LZArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZArchiver.h"; sourceTree = "<group>"; };
-		9F4395A51F60FABA00F57C82 /* NSObject+LZArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZArchiver.m"; sourceTree = "<group>"; };
-		9F4395F01F61689300F57C82 /* NSObject+LZSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZSupport.h"; sourceTree = "<group>"; };
-		9F4395F11F61689300F57C82 /* NSObject+LZSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZSupport.m"; sourceTree = "<group>"; };
-		9F4395F41F6168EB00F57C82 /* LZArchiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZArchiverManager.h; sourceTree = "<group>"; };
-		9F4395F51F6168EB00F57C82 /* LZArchiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZArchiverManager.m; sourceTree = "<group>"; };
+		9FF8F4E41F61AEDC004E1762 /* LZArchiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZArchiverManager.h; sourceTree = "<group>"; };
+		9FF8F4E51F61AEDC004E1762 /* LZArchiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZArchiverManager.m; sourceTree = "<group>"; };
+		9FF8F4E61F61AEDC004E1762 /* NSObject+LZArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZArchiver.h"; sourceTree = "<group>"; };
+		9FF8F4E71F61AEDC004E1762 /* NSObject+LZArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZArchiver.m"; sourceTree = "<group>"; };
+		9FF8F4E81F61AEDC004E1762 /* NSObject+LZSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZSupport.h"; sourceTree = "<group>"; };
+		9FF8F4E91F61AEDC004E1762 /* NSObject+LZSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 		9F43958B1F60FA5D00F57C82 /* LZArchiver */ = {
 			isa = PBXGroup;
 			children = (
-				9F4395A31F60FA7E00F57C82 /* Core */,
 				9F43958C1F60FA5D00F57C82 /* LZArchiver.h */,
+				9FF8F4E31F61AEDC004E1762 /* Sources */,
 				9F43958D1F60FA5D00F57C82 /* Info.plist */,
 			);
 			path = LZArchiver;
@@ -99,17 +99,17 @@
 			path = LZArchiverTests;
 			sourceTree = "<group>";
 		};
-		9F4395A31F60FA7E00F57C82 /* Core */ = {
+		9FF8F4E31F61AEDC004E1762 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9F4395A41F60FABA00F57C82 /* NSObject+LZArchiver.h */,
-				9F4395A51F60FABA00F57C82 /* NSObject+LZArchiver.m */,
-				9F4395F01F61689300F57C82 /* NSObject+LZSupport.h */,
-				9F4395F11F61689300F57C82 /* NSObject+LZSupport.m */,
-				9F4395F41F6168EB00F57C82 /* LZArchiverManager.h */,
-				9F4395F51F6168EB00F57C82 /* LZArchiverManager.m */,
+				9FF8F4E41F61AEDC004E1762 /* LZArchiverManager.h */,
+				9FF8F4E51F61AEDC004E1762 /* LZArchiverManager.m */,
+				9FF8F4E61F61AEDC004E1762 /* NSObject+LZArchiver.h */,
+				9FF8F4E71F61AEDC004E1762 /* NSObject+LZArchiver.m */,
+				9FF8F4E81F61AEDC004E1762 /* NSObject+LZSupport.h */,
+				9FF8F4E91F61AEDC004E1762 /* NSObject+LZSupport.m */,
 			);
-			path = Core;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,10 +119,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4395A61F60FABA00F57C82 /* NSObject+LZArchiver.h in Headers */,
-				9F4395F21F61689300F57C82 /* NSObject+LZSupport.h in Headers */,
-				9F4395F61F6168EB00F57C82 /* LZArchiverManager.h in Headers */,
+				9FF8F4EE1F61AEDC004E1762 /* NSObject+LZSupport.h in Headers */,
+				9FF8F4EA1F61AEDC004E1762 /* LZArchiverManager.h in Headers */,
 				9F43959A1F60FA5D00F57C82 /* LZArchiver.h in Headers */,
+				9FF8F4EC1F61AEDC004E1762 /* NSObject+LZArchiver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4395A71F60FABA00F57C82 /* NSObject+LZArchiver.m in Sources */,
-				9F4395F31F61689300F57C82 /* NSObject+LZSupport.m in Sources */,
-				9F4395F71F6168EB00F57C82 /* LZArchiverManager.m in Sources */,
+				9FF8F4EB1F61AEDC004E1762 /* LZArchiverManager.m in Sources */,
+				9FF8F4ED1F61AEDC004E1762 /* NSObject+LZArchiver.m in Sources */,
+				9FF8F4EF1F61AEDC004E1762 /* NSObject+LZSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +426,7 @@
 				9F43959F1F60FA5D00F57C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F4395A01F60FA5D00F57C82 /* Build configuration list for PBXNativeTarget "LZArchiverTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				9F4395A21F60FA5D00F57C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

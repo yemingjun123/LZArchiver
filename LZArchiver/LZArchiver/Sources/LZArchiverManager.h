@@ -12,6 +12,8 @@
 
 - (void)clearAll;
 
-- (void)clearToName:(NSString *)name;
+- (void)clear:(NSString *)className;
+
+- (void)clear:(NSString *)className withFileName:(NSString *)name;
 
 @end

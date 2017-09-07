@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char LZArchiverVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LZArchiver/PublicHeader.h>
 
+#import <LZArchiver/NSObject+LZArchiver.h>
+#import <LZArchiver/NSObject+LZSupport.h>
+#import <LZArchiver/LZArchiverManager>
+
 

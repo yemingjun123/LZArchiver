@@ -1,5 +1,6 @@
+
 //
-//  NSObject+LZArchiver.h
+//  NSObject+LZSupport.h
 //  LZArchiver
 //
 //  Created by Scott on 2017/9/7.
@@ -8,10 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (LZArchiver)
+@interface NSObject (LZSupport)
 
-- (BOOL)lz_archiverWithName:(NSString *)name;
-
-+ (id)lz_unArchiverWithName:(NSString *)name;
+- (NSArray<NSString *> *)lz_properties;
 
 @end
