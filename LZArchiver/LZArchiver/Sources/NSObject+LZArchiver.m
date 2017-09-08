@@ -8,8 +8,7 @@
 
 #import "NSObject+LZArchiver.h"
 #import "NSObject+LZSupport.h"
-
-NSString *const LZFolder = @"LLArciver";
+#import "LZArchiverConst.h"
 
 @implementation NSObject (LZArchiver)
 
@@ -19,7 +18,7 @@ NSString *const LZFolder = @"LLArciver";
     
     NSString *filePath = [[self class] createPathWithName:name];
     
-    [[self class] createFileWithPath:filePath];
+    [[self class] createArchiverFolder];
     
     return [NSKeyedArchiver archiveRootObject:self toFile:filePath];
 }
@@ -37,27 +36,23 @@ NSString *const LZFolder = @"LLArciver";
 
 + (NSString *)createPathWithName:(NSString *)name {
     
-    NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    NSString *path = [NSString stringWithFormat:@"%@/%@_%@.archiver",LZFolder, NSStringFromClass([self class]), name];
     
-    NSString *path = [NSString stringWithFormat:@"/%@/%@_%@.archiver",LZFolder, NSStringFromClass([self class]), name];
-    
-    return [documentPath stringByAppendingString: path];
+    return [KDOCUMENT_PATH stringByAppendingPathComponent: path];
 }
 
 
-+ (void)createFileWithPath:(NSString *)path {
++ (void)createArchiverFolder {
     
-    NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    NSString *folderPath = [KDOCUMENT_PATH stringByAppendingPathComponent:LZFolder];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    if (![fileManager fileExistsAtPath:path]) {
-        
-        NSString *folderPath = [documentPath stringByAppendingString:LZFolder];
+    if (![fileManager fileExistsAtPath:folderPath]) {
         
         BOOL cmp = [fileManager createDirectoryAtPath:folderPath withIntermediateDirectories:YES attributes:nil error:nil];
         
-        NSAssert(!cmp, @"Archive folder to create a failure");
+        NSAssert(cmp, @"Archive folder to create a failure");
     }
 }
 
@@ -81,7 +76,6 @@ NSString *const LZFolder = @"LLArciver";
         [coder encodeObject:[self valueForKey:property] forKey:property];
     }
 }
-
 
 
 @end

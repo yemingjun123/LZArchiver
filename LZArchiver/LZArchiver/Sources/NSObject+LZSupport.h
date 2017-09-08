@@ -11,6 +11,8 @@
 
 @interface NSObject (LZSupport)
 
+// 返回该对象的所有成员变量名
+
 - (NSArray<NSString *> *)lz_properties;
 
 @end

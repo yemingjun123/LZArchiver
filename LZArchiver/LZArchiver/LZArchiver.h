@@ -18,6 +18,6 @@ FOUNDATION_EXPORT const unsigned char LZArchiverVersionString[];
 
 #import <LZArchiver/NSObject+LZArchiver.h>
 #import <LZArchiver/NSObject+LZSupport.h>
-#import <LZArchiver/LZArchiverManager>
+#import <LZArchiver/LZArchiverManager.h>
 
 

@@ -11,7 +11,7 @@
 @interface NSObject (LZArchiver)
 
 /**
-  自定义文件名归档
+  自定义名字归档
  
  @param  name 文件名
  
@@ -21,9 +21,9 @@
 
 
 /**
-  通过文件名解档
+  通过名字解档
  
- @param  name 文件名
+ @param  name 名字
  
  @return 解档对象
  */

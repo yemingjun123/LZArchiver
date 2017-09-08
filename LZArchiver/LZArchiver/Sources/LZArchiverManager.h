@@ -10,10 +10,25 @@
 
 @interface LZArchiverManager : NSObject
 
-- (void)clearAll;
+/**
+  清除所有的归档
+ */
++ (void)clearAll;
 
-- (void)clear:(NSString *)className;
+/**
+  清除一个类别的归档
+ 
+ @param className 类别名
+ */
++ (void)clear:(NSString *)className;
 
-- (void)clear:(NSString *)className withFileName:(NSString *)name;
+/**
+   清除一个 类别 && 归档对象的名字的归档
+
+ @param className 类别的名字
+ 
+ @param name      归档对象的名字
+ */
++ (void)clear:(NSString *)className withName:(NSString *)name;
 
 @end
